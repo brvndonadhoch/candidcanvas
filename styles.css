@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(26, 48, 41);
 }
 
 li, a, button {
@@ -31,7 +31,7 @@ header {
 
 .nav_links li{
     display:inline-block;
-    padding: opx 20px;
+    padding: 10px 20px;
 }
 
 .nav_links li a {
@@ -43,7 +43,7 @@ header {
 }
 
 button {
-    padding: 9px 25px;
+    padding: 9px;
     background-color: hsl(135, 62%, 45%);
     border: none;
     border-radius: 50px;
