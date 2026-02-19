@@ -7,7 +7,7 @@
 li, a {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: #eefef4;
     text-decoration: none;
 }
 
@@ -26,8 +26,11 @@ header {
 }
 
 .logo { 
+    display: flex;
+    align-items: center;
     cursor: pointer;
     margin-right: auto;
+    max-width: 260px;
 
 }
 
@@ -50,7 +53,7 @@ header {
 
 button {
     padding: 10px 30px;
-    background-color: hsl(0, 3%, 86%);
+    background-color: #eefef4;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -75,7 +78,7 @@ body {
 p {
     display: flex;  
     justify-content: center;
-    color: white;
+    color: #eefef4;
     margin: 40px;
     
 }
@@ -83,7 +86,7 @@ p {
 .name {
   display: flex;  
   justify-content: center;
-  color: white;
+  color: #eefef4;
   align-items: center;
   font-size: 160px;
 }
