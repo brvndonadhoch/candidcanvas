@@ -119,16 +119,6 @@ p {
     font-size: 40px;
     margin-bottom: 5px;
 }
-
-.contact-title hr {
-    border:none;
-    width:120px;
-    height: 5px;
-    background-color: #eefef4;
-    border-radius: 20px;
-    margin-bottom:20px;
-}
-
 .contact-inputs {
     width: 400px;
     height: 50px;
@@ -151,12 +141,5 @@ p {
 }
 
 .contact-inputs::placeholder{
-    font-family: "Montserrat";
     color: #a9a9a9;
 }
-
-.contact-inputs button{
-    font-size: medium;
-    
-}
-
