@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat";
 }
 
 li, a {
@@ -97,4 +98,65 @@ p {
     align-items: center;
 }
 
+.contact-form{
+    color:white;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-title h2{
+    font-weight: 400;
+    color:#eefef4;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-title hr {
+    border:none;
+    width:120px;
+    height: 5px;
+    background-color: #eefef4;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline:none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact textarea{
+    height: 220px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 3px solid hsl(135, 62%, 45%);
+}
+
+.contact-inputs::placeholder{
+    font-family: "Montserrat";
+    color: #a9a9a9;
+}
+
+.contact-inputs button{
+    font-size: medium;
+    
+}
 
