@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 
 li, a {
@@ -22,8 +23,8 @@ button {
 header {
     display: flex;
     justify-content: flex-end;
-    align-items: centre;
     padding: 40px;
+    padding-bottom: 0px;
 }
 
 .logo { 
@@ -117,6 +118,7 @@ p {
     color:#eefef4;
     font-size: 40px;
     margin-bottom: 5px;
+    letter-spacing: 2px;
 }
 .contact-inputs {
     width: 400px;
@@ -142,3 +144,29 @@ p {
 .contact-inputs::placeholder{
     color: #a9a9a9;
 }
+
+.gallery{
+    display: grid;
+    margin: 0 auto;        /* centers the gallery block */
+    width: fit-content;    /* shrink-wraps to its content */
+
+}
+
+.gallery .posters,
+.gallery .logos,
+.gallery .photography,
+.gallery .illustrations {
+    margin: 0px 50px 0px 50px
+}
+
+.gallery img{
+    max-height: 450px;
+    padding: 5px;
+}
+
+.gallery h3{
+    color:#eefef4;
+    text-align: center;
+    padding: 20px;
+}
+
